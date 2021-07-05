@@ -20,3 +20,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "desafio-ciet.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet desafio-ciet.dll
