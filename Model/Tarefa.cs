@@ -16,7 +16,6 @@ namespace desafio_ciet.Model
             }
             Descricao = descricao;
             Aberto = "true";
-            ;
         }
 
         public void Fechar()

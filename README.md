@@ -20,10 +20,10 @@ Tecnologias Utilizadas:
 ## Instalação
 
 O backend necessita de ambiente Linux com Docker.
-Para executar é necessário baixar o projeto localmente e executar o comando:
+Para executar é necessário baixar o projeto localmente e à partir da pasta "Desafio CI&T" executar o seguinte comando:
 
 ```sh
-docker build -f Dockerfile -t desafio-ciet
+docker build -f "CIeT-dev-test-api\CIeT-dev-test-api\Dockerfile" --force-rm -t desafiociet:dev --target base "CIeT-dev-test-api\CIeT-dev-test-api" 
 ```
 
 ## Documentação da API

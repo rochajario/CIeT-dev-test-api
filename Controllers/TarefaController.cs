@@ -84,5 +84,25 @@ namespace desafio_ciet.Controllers
             }
             return Ok(new { status = "Sucesso", message = "A Tarefa solicitada foi removida." });
         }
+
+        [HttpGet("FinalizarTarefa/{id}")]
+        public ActionResult FinalizarTarefa([FromRoute] int id)
+        {
+            bool status = false;
+            foreach (var item in _tarefaRepository.Read().ToList())
+            {
+                if(item.Id == id)
+                {
+                    item.Fechar();
+                    _tarefaRepository.Update(item);
+                    status = true;
+                }
+            }
+            if (!status)
+            {
+                return BadRequest(new { status = "Erro", message = "Não foi possível encontrar a tarefa solicitada." });
+            }
+            return Ok(new { status="Sucesso", message = $"A tarefa {id} foi finalizada com sucesso!"});
+        }
     }
 }
