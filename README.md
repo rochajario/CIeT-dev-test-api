@@ -1,4 +1,4 @@
-# CI&T - Dev Test
+# CI&T - Dev Test - Backend
 ## Desafio Turma Análise e Desenvolvimento de Sistemas 2021/1 - UNA
 
 
@@ -7,7 +7,6 @@ O desafio consiste em implementar um app de TODO List simples que possua um fron
 Tecnologias Utilizadas:
 - .Net Core 5.0 (C#)
 - Entity Framework Core
-- Vue.js 
 
 ## Critérios Estabelecidos para Avaliação 
 
