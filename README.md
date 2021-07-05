@@ -1,30 +1,55 @@
-# CIeT-dev-test
-Teste de Desenvolvimento - Frontend e Backend
+# CI&T - Dev Test
+## Desafio Turma Análise e Desenvolvimento de Sistemas 2021/1 - UNA
 
-Instruções gerais
-O desafio consiste em implementar um app de TODO List simples que possua um frontend e um backend para processar e armazenar as operações e dados.
-A implementação foi realizada em C# e Vue.js
 
-Critérios para avaliação
+O desafio consiste em implementar um app de TODO List simples que possua um frontend e um backend para processar e armazenar as operações e dados. 
 
-    Organização de código, arquitetura e boas práticas de programação (SOLID, Clean Code, etc)
-    Como foi a utilização dos frameworks e bibliotecas utilizados e da linguagem de programação
-    Comunicação entre as aplicações (frontend e backend) deverá ocorrer através do protocolo HTTP com chamadas Rest utilizando o formato JSON
-    Documentação de como executar os projetos no ambiente local
-    Implementação de testes de unidade (diferencial)
-    Aplicações executando em containers Docker / docker-compose (diferencial)
+Tecnologias Utilizadas:
+- .Net Core 5.0 (C#)
+- Entity Framework Core
+- Vue.js 
 
-Construindo um app de todo-list
-Meu Todo List App
-Frontend
+## Critérios Estabelecidos para Avaliação 
 
-    Faça o setup de um novo projeto
-    Criar uma página com formulário para inclusão da lista de TODOs. A página deverá conter:
-        Campo de input para inserir a descrição
-        Botão para cadastrar
-    Na mesma página, crie uma tabela para visualizar os itens já cadastrados. A tabela deverá possuir as seguintes ações para cada item:
-        Botão para editar o texto
-        Botão para excluir o item
-        Botão para finalizar o item
-    Os itens finalizados deverão ser apresentados em uma cor diferente dos demais itens na lista
-    Criar uma opção para selecionar todos os itens da lista e um botão para finalizar todos com uma única ação
+- Organização de código, arquitetura e boas práticas de programação (SOLID, Clean Code, etc)
+- Como foi a utilização dos frameworks e bibliotecas utilizados e da linguagem de programação
+- Comunicação entre as aplicações (frontend e backend) deverá ocorrer através do protocolo HTTP com chamadas Rest utilizando o formato JSON
+- Documentação de como executar os projetos no ambiente local
+- Implementação de testes de unidade (diferencial)
+- Aplicações executando em containers Docker / docker-compose (diferencial)
+
+## Instalação
+
+O Frontend da Aplicação requer o [Node.js](https://nodejs.org/) v10+ .
+Instale as depedências para iniciar o servidor em modo de desenvolvimento.
+
+```sh
+cd Frontend
+npm install
+npm run dev
+```
+
+Para ambientes de produção...
+
+```sh
+npm install --production
+NODE_ENV=production node app
+```
+
+## Documentação da API
+
+A documentação da API pode ser acessada juntamente com uma versão de demonstração conforme tabela à baixo
+
+| Recurso | Local |
+| ------ | ------ |
+| Documentação da API | google.com.br |
+| Demonstração da API | heroku.com |
+
+## Desenvolvedor
+
+Jario Rocha dos Santos Junior - 2021 
+https://www.linkedin.com/in/rochajario/
+rochajario@gmail.com
+
+## Licença
+MIT
