@@ -19,20 +19,11 @@ Tecnologias Utilizadas:
 
 ## Instalação
 
-O Frontend da Aplicação requer o [Node.js](https://nodejs.org/) v10+ .
-Instale as depedências para iniciar o servidor em modo de desenvolvimento.
+O backend necessita de ambiente Linux com Docker.
+Para executar é necessário baixar o projeto localmente e executar o comando:
 
 ```sh
-cd Frontend
-npm install
-npm run dev
-```
-
-Para ambientes de produção...
-
-```sh
-npm install --production
-NODE_ENV=production node app
+docker build -f Dockerfile -t desafio-ciet
 ```
 
 ## Documentação da API
@@ -41,14 +32,12 @@ A documentação da API pode ser acessada juntamente com uma versão de demonstr
 
 | Recurso | Local |
 | ------ | ------ |
-| Documentação da API | google.com.br |
-| Demonstração da API | heroku.com |
+| Projeto de Backend | https://github.com/rochajario/CIeT-dev-test-api |
+| Projeto de Frontend | https://github.com/rochajario/CIeT-dev-test-app |
 
 ## Desenvolvedor
 
-Jario Rocha dos Santos Junior - 2021 
-https://www.linkedin.com/in/rochajario/
-rochajario@gmail.com
+Jario Rocha dos Santos Junior - 2021 | https://www.linkedin.com/in/rochajario/ | rochajario@gmail.com
 
 ## Licença
 MIT
