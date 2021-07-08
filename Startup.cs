@@ -29,7 +29,8 @@ namespace desafio_ciet
                     builder =>
                     {
                         builder.WithOrigins(
-                            "*");
+                            "http://lista-de-tarefas-app.herokuapp.com:80",
+							"https://lista-de-tarefas-app.herokuapp.com:443");
                     });
             });
             services.AddControllers();
