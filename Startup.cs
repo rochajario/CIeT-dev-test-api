@@ -29,9 +29,7 @@ namespace desafio_ciet
                     builder =>
                     {
                         builder.WithOrigins(
-                            "https://lista-de-tarefas-app.herokuapp.com/",
-                            "http://localhost:8080",
-                            "http://localhost:8081");
+                            "*");
                     });
             });
             services.AddControllers();
