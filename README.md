@@ -26,7 +26,7 @@ Para executar é necessário baixar o projeto localmente e à partir da pasta "D
 docker build -f "CIeT-dev-test-api\CIeT-dev-test-api\Dockerfile" --force-rm -t desafiociet:dev --target base "CIeT-dev-test-api\CIeT-dev-test-api" 
 ```
 
-## Documentação da API
+## Dependências do Projeto
 
 A documentação da API pode ser acessada juntamente com uma versão de demonstração conforme tabela à baixo
 
@@ -34,6 +34,9 @@ A documentação da API pode ser acessada juntamente com uma versão de demonstr
 | ------ | ------ |
 | Projeto de Backend | https://github.com/rochajario/CIeT-dev-test-api |
 | Projeto de Frontend | https://github.com/rochajario/CIeT-dev-test-app |
+
+## Exemplo de Tela
+![alt text](https://github.com/rochajario/CIeT-dev-test-app/blob/main/app.PNG?raw=true)
 
 ## Desenvolvedor
 
